@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			#header {
+				position:relative;
+				float:right;
+				display:flex;
+				margin-top:10px;
+				margin-right:20px;
+			}
+			#apps {
+				margin-top:2px;
+			}
+			#notifications {
+				margin-top:-2px;
+			}
+			#plus {
+				margin-top:-10px;
+			}
+			a {
+				text-decoration: none;
+				font-family: Arial;
+				font-size: 13px;
+				line-height: 24px;
+				color:#404040;
+				margin-left:20px;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+			#google {
+				position:absolute;
+				margin-top:185px;
+				margin-left:40%;
+			}
+			#form {
+				position:absolute;
+				margin-top:310px;
+				margin-left:25%;
+				width:600px;
+				height:auto;
+				font-family: arial,sans-serif;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				font-size-adjust: none;
+				font-stretch: normal;
+				font-feature-settings: normal;
+				font-language-override: normal;
+				font-kerning: auto;
+				font-synthesis: weight style;
+				font-variant: normal;
+				line-height: 1.2em !important;
+				height: 1.2em !important;
+			}
+			#search {
+				position:absolute;
+				display:inline;
+				margin-top:330px;
+				margin-left:41%;
+			}
+			#lucky {
+				position:absolute;
+				display:inline;
+				margin-top:330px;
+				margin-left:52%;
+			}
+			.button {
+				height: 29px;
+				line-height: 27px;
+				background-image: -moz-linear-gradient(center top , #F5F5F5, #F1F1F1);
+				background-color: #F5F5F5;
+				border: 1px solid rgba(0, 0, 0, 0.1);
+				border-radius: 2px;
+				color: #444;
+				cursor: default;
+				font-family: arial,sans-serif;
+				font-size: 11px;
+				font-weight: bold;
+				margin: 11px 8px;
+				min-width: 54px;
+				padding: 0px 8px;
+				text-align: center;
+			}
+			#UK {
+				margin-top:238px;
+				margin-left:57%;
+				position:absolute;
+				color: #777;
+				font-size: 16px;
+				font-weight: bold;
+				font-family:arial;
+			}
+
+			#footer {
+				margin-left:-8px;
+				position:fixed;
+				bottom: 0;
+				width:100%;
+				background-color:#ededed;
+				line-height: 40px;
+				border-top:2px solid #e4e4e4;
+				font-color:#666;
+				font-family:arial;
+			}
+			#left {
+				display:inline;
+			}
+
+			#right{
+				margin-right:20px;
+				float: right;
+				display:inline;
+			}
+		</style>
+		<title>
+		Google
+		</title>
+	<head>
+	<body>
+		<div id="header">
+				<a id="+Tom" href="https://plus.google.com/u/0/?tab=wX">
+				+Tom
+				</a>
+				<a id="Gmail" href="https://mail.google.com/mail/?tab=wm">
+				Gmail
+				</a>
+				<a id="Images" href="https://www.google.co.uk/imghp?hl=en&tab=wi&ei=t3BkVeWsG8bB7AbMm4DoAg&ved=0CBMQqi4oAg">
+				Images
+				</a>
+				<a id="apps" href="http://www.google.co.uk/intl/en/options/">
+					<img src="https://www.ablebits.com/_img-blog/sync-google-outlook/apps-launcher-icon.png">
+				</a>
+				<a id="notifications" href="http://www.google.co.uk/intl/en/options/">
+					<img src="bell.png">
+				</a>
+				<a id="share" href="https://plus.google.com/u/0/stream/all?hl=en">
+					<img src="plus.png">
+				</a>
+				<a id="plus" href="https://plus.google.com/u/0/me?tab=wX">
+					<img src="blue.png">
+				</a>
+		</div>
+
+		<div id="google">
+			<img src="https://www.google.co.uk/images/srpr/logo11w.png" height= 95px width=269px>
+		</div>
+
+		<!--<div id="UK">
+			<p>UK</p>
+		</div>-->
+
+		<form action="http://google.com" method="POST" name="google">
+				<input type="text" name="search-bar" id="form"><br>
+				<input type="submit" value="Google Search" id="search" class="button">
+				<input type="submit" value="I'm Feeling Lucky" id="lucky" class="button">
+		</form>
+		<div id="footer">
+			<div id="left">
+				<a id="Advertising" href="https://www.google.co.uk/intl/en/ads/?fg=1">Advertising</a>
+				<a id="Business" href="https://www.google.co.uk/services/?fg=1">Business</a>
+				<a id="About" href="https://www.google.co.uk/intl/en/about.html?fg=1">About</a>
+			</div>
+			<div id="right">
+				<a id="Privacy" href="https://www.google.co.uk/intl/en/policies/privacy/?fg=1">Privacy</a>
+				<a id="Terms" href="https://www.google.co.uk/intl/en/policies/terms/?fg=1">Terms</a>
+				<a id="Settings" href="https://www.google.co.uk/preferences?hl=en">Settings</a>
+				<a id="Use" href="https://www.google.com/?gfe_rd=cr&ei=dl9kVfkS06rzB4fOgZgH&gws_rd=cr&fg=1">Use Google.com</a>
+			</div>
+		</div>
+	</body>
+</html>
